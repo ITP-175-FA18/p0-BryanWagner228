@@ -14,3 +14,7 @@ let test5 = 'prgrmmng';
 let test6 = 'pr0gressive';
 let test7 = 'program';
 let test8 = 'progressive';
+console.log(test5.startsWith('prog'));
+console.log(test6.startsWith('prog'));
+console.log(test7.startsWith('prog'));
+console.log(test8.startsWith('prog'));

@@ -13,3 +13,10 @@ let test1 = 6;
 let test2 = 87;
 let test3 = 486;
 let test4 = -40;
+let sum = test1 + test3;
+console.log(sum);
+let sum2 = test1 + test2;
+console.log(sum2);
+let sum3 = test3 + test4;
+console.log(sum3);
+

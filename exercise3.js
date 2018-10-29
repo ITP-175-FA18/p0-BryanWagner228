@@ -14,3 +14,39 @@ let test10 = [3, 5, 4];
 let test11 = [324, 5436, 234];
 let test12 = [-1, -2, -3];
 
+var largest= 0;
+let i = 0;
+
+
+
+for (i=0; i<=largest;i++){
+    if (test9[i]>largest) {
+        var largest=test9[i];
+    }
+}
+console.log(largest);
+var largest= 0;
+
+for (i=0; i<=largest;i++){
+    if (test10[i]>largest) {
+        var largest=test10[i];
+    }
+}
+console.log(largest);
+var largest= 0
+
+for (i=0; i<=largest;i++){
+    if (test11[i]>largest) {
+        var largest=test11[i];
+    }
+}
+console.log(largest);
+
+
+
+console.log(
+  Math.max(...test12)
+);
+
+
+
